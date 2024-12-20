@@ -4,3 +4,8 @@
     2. Use let to create a variable that points to a Number
        - Then add another Number to this same variable and print it out
 */
+
+let a = "hee";
+a = ram + a;
+console.log(a);
+

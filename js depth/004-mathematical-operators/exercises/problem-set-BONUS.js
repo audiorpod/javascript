@@ -8,3 +8,20 @@
 */
 
 // string concatenation
+
+let a = "hello"
+a = "world" + a;
+console.log(a);
+
+// adding number to a string
+
+let b = 10
+b = "hello" + b;
+console.log(b);
+
+
+// adding boolean to a string
+
+let c = true 
+c = true + c;
+console.log(c);

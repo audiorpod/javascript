@@ -18,3 +18,7 @@
     This is very very challenging, it might take several tries
     or coming back to it in the future when it's more relevant.
 */
+
+let username = "";
+username &&= "tiger"; // username = username && "tiger"
+console.log(username);

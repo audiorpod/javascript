@@ -6,3 +6,8 @@
     3. What is the result of: (2 ** 2) !== "4"
     4. What is the result of: (true === true) && (false === false)
 */
+
+console.log("1" == 1); // true 
+console.log(3 > 2 == true); // true
+console.log(2 ** 2 != "4"); // False
+console.log(true == true && false == false); // true

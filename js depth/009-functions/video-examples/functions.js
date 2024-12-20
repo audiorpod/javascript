@@ -1,4 +1,4 @@
-// function declaration
+// function declaration arrow function declaration
 const sayHello = () => {
   console.log("Hello, jello!");
   console.log("meow!");

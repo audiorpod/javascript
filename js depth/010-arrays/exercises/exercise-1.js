@@ -12,3 +12,9 @@
     BONUS: Try to see if you can make it so that all you need to change
     is the "multiple" variable and the program still works correctly.
 */
+
+var multiple = [10,11,12,13,14,15];
+const numbers = 5;
+for(var multiple = 10; i <= numbers.length; i++){
+    console.log(multiple + " " + numbers[i]);
+}

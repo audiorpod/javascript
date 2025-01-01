@@ -12,3 +12,17 @@
 
     *Print out the array after each of these steps ^
 */
+
+const planets = ["Mercury", "Venus", "Earth", "Mars"];
+planets.push("Jupiter"); // add to the end of the array
+console.log(planets);
+planets.unshift("Sun"); // add to start of the array
+
+planets.pop(); // remove
+planets.pop(); // remove
+console.log(planets);
+
+planets.shift();// remove from start of the array
+planets.shift(); // remove from start of the array
+console.log(planets);
+

@@ -19,3 +19,14 @@
 
     WHY is this?
 */
+
+var bakery = ["cake", "Bread", "Cookie", "Scone"];
+console.log(bakery);
+
+var myBakery = bakery;
+myBakery.push("Croissant","Granola");
+
+console.log(myBakery);
+console.log(bakery);
+
+// This is because myBakery and bakery are both pointing to the same array in memory.
